@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<style>
+
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark" >
+		<a href="" class="navbar-brand bran"><img src="logo.png"></a>
+		
+			<ul class="navbar-nav ml-auto ite">
+			
+
+			<li class="nav-item">
+				<a href="" class="nav-link">Home</a>
+			</li>
+			<li class="nav-item">
+				<a href="" class="nav-link">About Us</a>
+			</li>
+			<li class="nav-item">
+				<a href="" class="nav-link">Contact Us</a>
+			</li>
+			
+		</ul>
+		
+	</nav>
+	<div>
+		<img src="ver.jpg" width="550px" height="600px" class="img11">
+		<img src="ver.jpg" width="550px" height="600px" class="img12">
+		<p style="font-size: 24px; padding-left: 10px"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<hr>
+		<button class="btn1">Hide Image</button>
+		<button class="btn2">Show Image</button>
+		
+	</div>
+	<div>
+		<p style="font-size: 24px; padding-left: 10px; margin-top: 20px;"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			
+		</p>
+	</div>
+<script>
+	$(document).ready(function(){
+  $(".btn1").click(function(){
+    $("img").hide(3000);
+  });
+  $(".btn2").click(function(){
+    $("img").show(3000);
+  });
+});
+</script>
+<script>
+	$(document).ready(function(){
+  $(".btn1").mouseenter(function(){
+   $(this).css('background-color','#fb9800');
+});
+   $(".btn1").mouseleave(function(){
+   $(this).css('background-color','buttonface');
+});
+	$(".btn2").mouseenter(function(){
+   $(this).css('background-color','#fb9800');
+});
+   $(".btn2").mouseleave(function(){
+   $(this).css('background-color','buttonface');
+});
+});
+</script>
+</body>
+</html>

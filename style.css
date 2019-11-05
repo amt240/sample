@@ -1,0 +1,62 @@
+/*.navbar{
+	background-color: black;
+	height: 100px;
+}
+.brand1{
+	margin-left: 200px;
+
+}
+.logo1{
+	height: 40px;
+}
+.btn{
+	margin-left: 800px;
+	background-color: #fb9800;
+	margin-top: 5px;
+	color: white;
+	border-style: solid;
+	border-color: white;
+	padding-right: 10px;
+}
+.btn2{
+	background-color: black;
+	color: #fb9800;
+	font-size: 40px;
+	border: none;
+	padding-right:  5px;
+	margin-top: -10px;
+	margin-left: -20px;
+}
+ .img1 {
+      width: 100%;
+      height: 100%;
+  }
+  .img2{
+  	width: 100%;
+  	height: 600px;
+  }
+   .img3{
+  	width: 100%;
+  	height: 600px;
+  }*/
+ .bran{
+  	margin-left: 150px;
+  }
+ .ite{
+  	margin-right: 200px;
+  }
+ .img11{
+			float: left;
+			margin-right: 15px;
+		}
+.img12{
+			float: right;
+			
+		}
+.btn1{
+	margin-left: 50px;
+	margin-top: 10px;
+}
+.btn2{
+	margin-left: 50px;
+}
